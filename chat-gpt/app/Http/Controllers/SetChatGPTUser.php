@@ -36,7 +36,7 @@ class SetChatGPTUser extends Controller
     /**
      * Implement CHAT GPT API Using CURL.
      * If you need to write it down, use it................................ 
-     * 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
+     * 
      * <==============================================================================================>
      */
     public function OnSetQuestion(Request $req)
@@ -75,7 +75,7 @@ class SetChatGPTUser extends Controller
         // <============ Save the result to the database, associating it with the authenticated user.====================================>
         $userId = Auth::id();
         $status_active =  1 ;//when insert status=1 for active
-        $is_deleted =  0 ;//when need delete change status value status=0 and is_deleted =1  for delete  ...... we are not permanently delete
+        $is_deleted =  0 ;//when need delete change status value status=0 and is_deleted =1  for delete  ...... we are not permanently delete 
         $InsertDate = date('d/m/y') ;  
         
         if($answer)
