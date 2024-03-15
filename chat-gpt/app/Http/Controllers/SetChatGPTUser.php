@@ -36,7 +36,7 @@ class SetChatGPTUser extends Controller
     /**
      * Implement CHAT GPT API Using CURL.
      * If you need to write it down, use it................................ 
-     * 
+     * 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
      * <==============================================================================================>
      */
     public function OnSetQuestion(Request $req)

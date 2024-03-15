@@ -11,7 +11,7 @@
  * install Sanctum For Authentication
  * Develop Chat Gpt using CURL  And check User Authorized Or Un-Athorized
  * Useing POSTMAN 
- *  
+ * If you need to write it down, use it: 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
  */
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
